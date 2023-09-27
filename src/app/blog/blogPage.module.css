@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    background-color: rgb(53, 156, 156);
+    padding: 10px;
+    letter-spacing: 4px;
+}
+.content{
+    display: flex;
+}
