@@ -3,7 +3,24 @@ import styles from "./CategoryList.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
+// const getData = async (page, cat) => {
+//   const res = await fetch(
+//     "/api/categories",
+//     {
+//       cache: "no-store",
+//     }
+//   );
+
+//   if (!res.ok) {
+//     throw new Error("Failed");
+//   }
+
+//   return res.json();
+// };
+
+
 const CategoryList = () => {
+  // const data =await getData()
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Popular Categories</h1>
